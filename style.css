@@ -1,0 +1,53 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 150%;
+	background: url(https://i.pinimg.com/originals/87/41/ac/8741ac9c1890405df0c2ee899605178e.gif);
+	size: 100%;
+}
+
+
+.harryPotter {
+	margin-left: 667px;
+	height: 300px
+}
+
+
+.getStarted {
+	/*clear: both;*/
+	margin-top: 250px;
+}
+
+/*.container1 {
+	background-color: white;
+	
+	width: 248px;
+	float: left;
+	border: 1px dashed grey;
+	padding: 14px 20px;
+	margin-bottom: 115px;
+	margin-left: 385px;
+	margin-top: -187px;
+	image-rendering
+}*/
+
+
+.container2 {
+	/*background-color: black;*/
+	color: white;
+	width: 646px;
+	float: right;
+	border: 1px dashed grey;
+	padding: 14px 20px;
+	margin-bottom: 12px;
+	margin-right: 404px;
+	margin-top: -187px;
+	text-align: center;
+}
+
+.emptySpace {
+	height: 180px;
+}
+
