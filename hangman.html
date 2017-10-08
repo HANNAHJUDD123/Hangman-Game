@@ -3,11 +3,12 @@
 <head>
 	<title>Hang Man</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ 
 </head>
 <body>
 
-<!-- this is the logo of hang man -->
+<!-- this is the logo of hang man -->h
 <img class="harryPotter" src="assets/HangmanHarryPotter.png">
 
 <div>
@@ -18,18 +19,11 @@
 	<div class="getStarted">
 		<section class="container2 col-md-4">
 			<p>Press any key to get started!</p>
-			<p>alphebet buttongs goes here</p>
-			<p class="scatagory">Catagory goes here</p>
-			<p>Hint</p>
-			<p class="hint clue">this is where the hint goes</p> 
-			<p>Wins</p>
-			<p id="wins">#</p>
-			<p>Current word</p>
-			<p id="answer-line"> _ _ _ _ _ _ _ _ _ _ </p>
-			<p>Number of guesses remaining</p>
-			<p id="remaining-guesses">#</p>
-			<p >Letters already Guessed</p>
-			<p id="wrong-letters"> _ _ _ _ _ _ _ _ _ </p>
+                <p id="chosenWord"></p>
+                <p id="guessedSoFar">Guessed so far: </p>
+                <p id="guessesRemaining">Guesses remaining: 10</p>
+                <p id="wins">Wins: 0</p>
+            </div>
 			<div class="col-md-2"></div>
 		</section>
 	</div>
@@ -37,9 +31,7 @@
 
 
 </div>
- <script type="text/javascript" src="harryPotter.js"></script>
-
-
-
+ <script type="text/javascript" src="java.js"></script>
+ 
 </body>
 </html>
